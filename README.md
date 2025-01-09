@@ -1,2 +1,2 @@
 # DSA
-LeetCode Practice because Practice make Perfection
+LeetCode Practice because Practice makes Perfection

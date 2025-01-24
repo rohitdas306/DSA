@@ -3,7 +3,6 @@ class Solution {
         int ans=0;
         while(x!=0){
             int digit= x%10;
-            
             // Check for overflow/underflow before updating `ans`
             if (ans > Integer.MAX_VALUE / 10 || ans < Integer.MIN_VALUE / 10) return 0;
 

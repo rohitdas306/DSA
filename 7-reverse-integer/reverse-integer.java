@@ -5,8 +5,7 @@ class Solution {
             int digit= x%10;
             
             // Check for overflow/underflow before updating `ans`
-            if (ans > Integer.MAX_VALUE / 10 || (ans == Integer.MAX_VALUE / 10 && digit > 7)) return 0;
-            if (ans < Integer.MIN_VALUE / 10 || (ans == Integer.MIN_VALUE / 10 && digit < -8)) return 0;
+            if (ans > Integer.MAX_VALUE / 10 || ans < Integer.MIN_VALUE / 10) return 0;
 
              ans= ans*10 + digit;
              x= x/10;
